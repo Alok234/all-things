@@ -1,0 +1,236 @@
+/* Text Font for google font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.btn {
+  text-align: center;
+  padding: 13px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(234, 72, 2);
+  border: none;
+  border-radius: 10px;
+  font-style: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.22s;
+}
+.btn:hover {
+  padding: 14px;
+}
+
+/* Home-section-start */
+.home {
+  height: 100vh;
+  width: 100%;
+  background-image: url(image/banner1.png);
+  /* position: relative; */
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.text {
+  margin-right: 255px;
+  margin-bottom: 185px;
+
+  width: 500px;
+  height: 300px;
+}
+.text h1 {
+  font-size: 65px;
+  text-align: right;
+}
+
+.text p {
+  margin-top: 25px;
+  font-size: 28px;
+  text-align: right;
+}
+.text button {
+  margin-left: 390px;
+  margin-top: 30px;
+}
+
+/* Home-Section-End */
+
+/* Failure-section-start */
+
+.failure {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.failure .img img {
+  width: 420px;
+  height: 525px;
+  margin-right: 200px;
+}
+
+.failure .text {
+  margin-top: 85px;
+}
+
+.failure .text h2 {
+  font-size: 55px;
+}
+.failure .text p {
+  font-size: 18px;
+  color: rgb(93, 95, 95);
+  text-align: left;
+}
+.failure .region p {
+  font-size: 20px;
+  color: rgb(13, 13, 13);
+  margin-bottom: -10px;
+}
+
+.failure .region p .cheak {
+  color: rgb(7, 255, 7);
+  margin-right: 15px;
+}
+
+/* Failure-section-End  */
+
+/* Survice-section-Start  */
+
+.service {
+  width: 100%;
+  height: 70vh;
+}
+
+.service h2 {
+  text-align: center;
+  margin: 25px;
+  font-size: 45px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-left: 115px;
+}
+
+.option .card {
+  margin: 85px;
+  text-align: center;
+}
+
+.card h3 {
+  margin-top: 10px;
+}
+.card p {
+  margin-top: 10px;
+  color: rgb(81, 82, 83);
+}
+
+/* Survice section End  */
+
+/* Image-gradiant-Start  */
+
+.img-gradiant {
+  width: 100%;
+  height: 50vh;
+}
+
+.gradiant {
+  width: 1140px;
+  height: 300px;
+  background-image: linear-gradient(
+      to left,
+      rgba(222, 222, 225, 0.52),
+      rgba(251, 123, 32, 0.73)
+    ),
+    url("image/watch.png");
+  margin-left: 185px;
+  border-radius: 10px;
+}
+
+.gradiant .text-box {
+  position: relative;
+  top: 85px;
+  left: 45px;
+  width: 350px;
+}
+
+.text-box h4 {
+  font-size: 28px;
+  color: rgb(252, 254, 255);
+  margin-bottom: 25px;
+}
+.text-box .btn {
+  background-color: aliceblue;
+  color: black;
+}
+
+/* Image-Gradiant-End  */
+
+/* Footer-section-start */
+
+.footer {
+  width: 100%;
+  height: 60vh;
+  margin-top: 50px;
+  background-color: black;
+  color: aliceblue;
+}
+
+.footer .footer-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-text .future {
+  margin-right: 425px;
+  margin-top: 85px;
+}
+.footer-text .future h2 {
+  font-size: 35px;
+  letter-spacing: 1.5px;
+  margin-bottom: 25px;
+}
+.footer-text .future p {
+  width: 325px;
+  letter-spacing: 1px;
+  color: rgb(127, 128, 129);
+  margin-bottom: 15px;
+}
+.fa-brands {
+  margin: 10px;
+  font-size: 30px;
+}
+
+.fac {
+  color: #3b5998;
+}
+.tw {
+  color: #00acee;
+}
+.you {
+  color: rgb(248, 3, 3);
+}
+
+.subscribe h3 {
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+.subscribe input {
+  display: block;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.subscribe button {
+  margin-top: 5px;
+}
+/* Footer-section-End */
